@@ -1,0 +1,297 @@
+、并发编程 + activemq + 实战案例
+
+
+并发编程基础篇	第一天	1、课程大纲简要介绍
+2、线程基础概念、线程安全概念、多个线程多个锁概念
+3、对象锁的同步和异步
+4、脏读概念、脏读业务场景
+5、Synchronized概念、Synchronized代码块、Synchronized其他细节
+
+第二天	1、Volatile关键字概念、线程优化执行流程、内部原理讲解
+
+
+2、Volatile关键字的非原子性
+3、并发编程下的多线程间通信概念wait、notify，线程经典面试题讲解
+4、模拟底层阻塞队列（queue）实现讲解
+5、单例和多线程如何结合使用
+并发编程中级篇	
+
+第三天	1、同步类容器讲解
+2、并发类容器讲解
+3、Concurrent集合类讲解与底层原理实现
+4、CopyOnWrite集合类讲解与底层原理实现
+5、各类并发Queue详细讲解
+
+第四天	1、多线程设计模式之Future模式讲解与模拟实现
+2、多线程设计模式之Master-Worker模式讲解与模拟实现
+3、多线程设计模式之生产消费者模型讲解与模拟实现
+并发编程高级篇	第五天	1、JDK多任务执行框架底层讲解与内部实现
+2、默认线程池说明、底层代码讲解
+3、自定义线程池说明、底层代码讲解
+4、线程池拒绝策略讲解
+5、并发编程中的CountDownLatch与CyclicBarrier的使用
+
+第六天	1、并发编程中Future和Callable使用
+
+2、互联网进行限流策略的Semaphore信号量使用
+3、并发编程中的重入锁使用
+4、并发编程中的读写分离锁使用
+并发编程框架篇	
+
+第七天	1、无锁并行计算框架初步学习入门
+2、无锁并行计算框架HelloWorld示例讲解
+3、无锁并行计算框架底层实现讲解与RingBuffer数据结构讲解
+4、无锁并行计算框架EventProcessor和WorkPool的使用
+
+第八天	1、无锁并行计算框架构建复杂消费模型讲解
+2、无锁并行计算框架多生产者多消费者模型讲解
+3、无锁并行计算框案例使用实现讲解
+ActiveMQ
+
+	第九天	
+1、JMS规范简介
+2、ActiveMQ入门示例
+3、ActiveMQ安全机制
+4、ActiveMQ持久化机制
+
+第十天	
+1、ActiveMQ API讲解（一）
+2、ActiveMQ API讲解（二）
+3、ActiveMQ API讲解（三）
+
+第十一天	
+1、点对点与发布订阅模式
+2、取模实现负载均衡和多线程并发消费
+3、与Spring整合异步发送邮件
+
+第十二天	
+1、Zookeeper环境搭建
+2、Activemq集群环境搭建
+ 
+ 
+二、网络编程 + 实战案例 + jvm调优
+网络编程基础篇	第一天	
+1、网络编程Socket知识点回顾
+2、网络编程的伪异步IO模式讲解
+3、网络编程的NIO模型概念和原理讲解
+4、Buffer API讲解
+
+第二天	
+1、网络编程的NIO编程模型讲解
+2、网络编程的AIO编程模型讲解
+网络编程中级篇	第三天	
+1、通信框架Netty之HelloWorld入门示例
+2、通信框架Netty的多端口使用
+3、通信框架Netty的长连接短连接使用
+4、通信框架Netty的实战部署Netty服务讲解
+
+第四天	
+1、通信框架Netty的TCP粘包拆包讲解
+2、通信框架Netty的序列化框架讲解
+3、通信框架Netty的自定义协议讲解
+网络编程高级篇	第五天	1、通信框架Netty最佳实践一（实际项目中做数据通信）
+2、通信框架Netty最佳实践二（集群中进行心跳检测服务）
+
+第六天	
+1、通信框架Netty实现Http协议讲解
+2、通信框架Netty文件下载讲解
+3、通信框架Netty文件上传讲解
+
+第七天	1、数据交换项目通信服务场景讲解
+并发编程框架篇	第八天	
+1、jvm虚拟机组成部分讲解
+2、jvm虚拟机参数使用讲解
+
+第九天	
+1、jvm垃圾收集算法讲解
+2、jvm新生代老年代参数配置
+3、jvm垃圾收集器讲解
+
+第十天	
+1、Jmeter讲解
+2、jvm优化对Tomcat性能的影响测试
+3、jconsole讲解
+ 
+ 
+三、Redis + Lua + SSDB + Oracle
+Redis + Lua + SSDB	第一天	
+1、NoSQL简介与Redis介绍
+2、Redis环境安装
+第二天	
+1、Redis数据类型String
+2、Redis数据类型Hash
+3、Redis数据类型List
+4、Redis数据类型Set和ZSet
+第三天	
+1、Redis高级命令
+2、Redis安全性
+3、Redis主从复制
+4、Redis哨兵
+第四天	
+1、Redis事务
+2、Redis持久化机制
+3、Redis发布与订阅模式
+4、Redis的java api操作
+第五天	
+1、Lua脚本简介
+2、Lua安装与语法使用
+3、Redis与Lua集成
+4、Java API操作Redis调用Lua脚本
+第六天	
+1、SSDB简介
+2、SSDB使用
+3、SSDB集群、主从、主主、多主
+4、JAVA使用SSDB
+第七天	
+1、Redis集群概念说明
+2、Redis集群环境搭建与使用
+3、Java操作Redis集群
+第八天	
+1、Redis集群操作（一）
+2、Redis集群操作（二）
+3、Redis集群操作（三）
+Oracle	第九天	
+1、Oracle基础回顾
+2、Oracle高级使用
+3、Oracle分析函数
+第十天	
+1、Oracle之用户操作
+2、Oracle之事务和锁
+3、Oracle之索引和索引碎片问题解决
+第十一天	
+1、Oracle之数据库设计概述
+2、Oracle之物化视图
+第十二天	
+1、Oracle之同义词，DBLINK，表空间
+2、Oracle之垂直水平分库分表
+第十三天	1、Oracle之表分区、分区索引
+第十四天	1、使用Powerdesigner设计数据库表
+2、Oracle之数据库设计实战案例分析（分析+设计+存储过程实现）
+ 
+ 
+四、zookeeper + rocketmq + 实战案例
+Zookeeper	第一天	
+1、Zookeeper简介
+2、Zookeeper集群环境搭建
+3、Zookeeper客户端使用
+4、Zookeeper 配置文件讲解
+第二天	1、Zookeeper 原生API讲解
+第三天	
+1、Zookeeper Watcher核心机制讲解
+2、Zookeeper 安全认证讲解
+3、Zookeeper 实际应用讲解
+第四天	
+1、ZKClientAPI讲解
+2、ZKClientListener讲解
+3、CuratorAPI讲解
+4、CuratorCacheListener讲解
+5、Curator分布式锁讲解
+6、Curator分布式计数器讲解
+7、Curator分布式Barrier讲解
+8、Curator实现多个Watcher集群操作
+RocketMQ	第五天	
+1、RocketMQ简介
+2、RocketMQ环境搭建
+第六天	
+1、RocketMQ HelloWorld示例
+2、RocketMQ 重试策略讲解
+第七天	
+1、RocketMQ 双主双从集群环境搭建
+2、RocketMQ 架构讲解
+第八天	
+1、RocketMQ顺序消费
+2、RocketMQ事务消费
+第九天	
+1、RocketMQ拉取机制
+2、RocketMQ API使用简介
+3、RocketMQ FilterServer使用
+第十天	1、RocketMQ实战案例讲解
+ 
+ 
+五、Jenkins+ dubbo + dubbox + 实战案例
+Dubbo	第一天	
+1、Dubbo分布式服务治理简介
+2、Dubbo入门示例讲解
+3、Dubbo管控台部署使用
+第二天	
+1、依赖检查讲解
+2、集群容错配置讲解
+3、负载均衡配置讲解
+4、其他细节配置使用讲解
+第三天	
+1、Dubbox入门讲解
+2、Dubbox Rest讲解
+3、Dubbox 容器讲解
+4、Dubbox Kryo序列化框架
+第四天	1、关于项目的搭建与在linux平台下部署dubbo服务
+持续集成框架说明	第五天	1、持续集成环境搭建SVN+MAVEN+NEXUS搭建（一）
+2、持续集成环境搭建SVN+MAVEN+NEXUS搭建（二）
+3、持续集成环境搭建SVN+MAVEN+NEXUS搭建（三）
+第六天	1、持续集成环境搭建JENKINS搭建与使用（一）
+2、持续集成环境搭建JENKINS搭建与使用（二）
+3、持续集成环境搭建JENKINS搭建与使用（三）
+第七天	
+1、单点登录概述
+2、单点登录讲解
+3、单点登录windows平台环境搭建
+第八天	
+1、单点登录Linux部署与实现（一）
+2、单点登录Linux部署与实现（二）
+第九天	1、项目中实现单点登录环境跳转功能
+ 
+ 
+六、Storm + Kafka + Solr + 实战案例
+Storm	第一天	
+1、分布式流式计算简介
+2、环境搭建
+3、HelloWorld示例讲解
+4、Spout、Bolt、Topology概念
+5、集群环境提交Topology
+第二天	
+1、Worker、Executor、Task配置详解
+2、分组模式讲解
+第三天	
+1、WorldCount例子
+2、保证机制
+3、Drpc讲解
+第四天	
+1、KafKa安装与使用
+2、KafKaSpout使用
+第五天	
+1、结合Redis使用
+2、Trident学习使用
+3、Solr
+Solr	第六天	
+1、环境搭建
+2、HelloWorld示例讲解
+3、IK中文分词器安装与使用
+第七天	
+1、javabean与solr注解使用
+2、API使用讲解
+3、SSI框架整合Solr使用讲解
+4、管理员命令使用讲解
+第八天	
+1、DIH全量同步Mysql数据讲解
+2、DIH增量同步Mysql数据讲解
+第九天	1、Solr集群环境搭建与使用
+ 
+ 
+七、Nginx + keepalived + Fastdfs +实战案例
+Nginx	第一天	
+1、Nginx入门简介
+2、Nginx环境搭建
+3、Nginx虚拟主机配置
+4、Nginx日志分析
+5、Nginx Location url过滤
+第二天	
+1、Nginx集群环境搭建
+2、Nginx+Keepalived使用
+3、FastDFS
+FastDFS	第三天	
+1、FastDFS简介
+2、FastDFS环境搭建与使用
+第四天	1、FastDFS集群环境搭建+Nginx缓存、负载均衡等整合
+2、FastDFS集群API操作
+第五天	1、Web项目与fastdfs集群进行整合，实现文件的上传下载等功能
+2、Web项目实现对fastdfs文件进行定时任务清理工作
+ 
